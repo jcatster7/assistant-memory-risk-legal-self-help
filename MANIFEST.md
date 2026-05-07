@@ -27,11 +27,11 @@ real_data:
     generated_by: "scripts/run_pilot.mjs"
     note: "Flat metrics table regenerated from the sanitized source-bundle manifest."
   - path: "paper/paper.md"
-    sha256: "972a2f16fcaff0b30de84cb9fcb6bd145e34bb89ec7e4370102e8f6b1e99a95f"
+    sha256: "762994b621f0d6af60789ebaa2e5ba8debae0981aa77ebad1acf0a9b58844bb1"
     generated_by: "Canonical manuscript source"
     note: "Public manuscript source mirrored from the canonical paper directory."
   - path: "paper/Assistant Memory Risk In Legal Self-Help.pdf"
-    sha256: "3465c3950fdf6026901b992c9ccc6263d08a5d9d96255402d34fa99f4f2e8905"
+    sha256: "9785d2c01a93e82131ce47b2fe2ce18120d26847c5644f2ecf92550c6aee1d13"
     generated_by: "Canonical ACM build"
     note: "Final PDF included as a linked research artifact."
 lost_data: []

@@ -99,7 +99,7 @@ The sessions are controlled simulations. A stronger version should add longer se
 
 ## 9. Reproducibility
 
-The reproducibility package is maintained in the [artifact repository](https://github.com/jcatster7/assistant-memory-risk). It contains the path-redacted source-bundle manifest, controlled stimulus file, replay script, reproduced result files, manuscript source, final PDF, and repository checksums.
+The reproducibility package is maintained in the [artifact repository](https://github.com/jcatster7/assistant-memory-risk-legal-self-help). It contains the path-redacted source-bundle manifest, controlled stimulus file, replay script, reproduced result files, manuscript source, final PDF, and repository checksums.
 
 `MANIFEST.md` is the checksum gate. From the repository root, `node scripts/run_pilot.mjs` regenerates the JSON summary and flat CSV table from the manifest-listed inputs. The public package redacts local filesystem paths and local bundle labels while preserving the controlled stimulus set, policy counts, scenario counts, and aggregate benchmark metrics.
 
@@ -119,7 +119,7 @@ The replay performs no network calls and uses no external validators, paid APIs,
 - vLex. *What is Vincent?* [Knowledge base](https://support.vlex.com/vincent-by-vlex/vincent/getting-started-with-vincent/understanding-what-vincent-is).
 - Jinzhe Tan and Karim Benyekhlef. 2025. *LegalWebAgent: Empowering Access to Justice via LLM-Based Web Agents.* arXiv:2512.04105.
 - Justin Monk. 2026. *The Foltz Local Civic OS Testbed.* Technical report.
-- Justin Monk. 2026. *Assistant Memory Risk In Legal Self-Help Artifact Repository.* GitHub repository. [Repository](https://github.com/jcatster7/assistant-memory-risk).
+- Justin Monk. 2026. *Assistant Memory Risk In Legal Self-Help Artifact Repository.* GitHub repository. [Repository](https://github.com/jcatster7/assistant-memory-risk-legal-self-help).
 - Justin Monk. 2026. *The Evidence Gap in Consumer Legal AI: Defensibility Packages Between Attorney Recordkeeping and Enterprise AI Audit Trails.* Companion manuscript.
 - Justin Monk. 2026. *Certifying Consumer Legal AI: Evidence Packages for Courts, Bars, and Legal Aid.* Companion manuscript.
 - Justin Monk. 2026. *Tool-Calling Protocols For Offline Legal Agents.* Companion manuscript.
