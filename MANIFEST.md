@@ -30,8 +30,8 @@ real_data:
     sha256: "762994b621f0d6af60789ebaa2e5ba8debae0981aa77ebad1acf0a9b58844bb1"
     generated_by: "Canonical manuscript source"
     note: "Public manuscript source mirrored from the canonical paper directory."
-  - path: "paper/Assistant Memory Risk In Legal Self-Help.pdf"
-    sha256: "9785d2c01a93e82131ce47b2fe2ce18120d26847c5644f2ecf92550c6aee1d13"
+  - path: "paper/Legal AI Memory Risk.pdf"
+    sha256: "d1bfe1d6780a693b8c3f186db1a17b91f1eebdc494abd6aeaa6461dc99a190e4"
     generated_by: "Canonical ACM build"
     note: "Final PDF included as a linked research artifact."
 lost_data: []
