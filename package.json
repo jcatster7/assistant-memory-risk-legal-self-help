@@ -1,0 +1,11 @@
+{
+  "name": "assistant-memory-risk-legal-self-help",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Public reproducibility package for the Assistant Memory Risk In Legal Self-Help benchmark artifacts.",
+  "scripts": {
+    "reproduce": "node scripts/run_pilot.mjs",
+    "verify": "bash scripts/verify_artifacts.sh"
+  }
+}

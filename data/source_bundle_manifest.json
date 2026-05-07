@@ -1,0 +1,235 @@
+{
+  "generatedAt": "2026-05-04T09:42:30.946Z",
+  "command": "./scripts/maria-demo-evidence-bundle",
+  "root": "public/Foltz",
+  "fixtureId": "maria-garcia-v1",
+  "localOnly": true,
+  "summary": {
+    "pass": 8,
+    "warn": 0,
+    "fail": 0
+  },
+  "expected": {
+    "passportFieldsUpdated": 40,
+    "passport": {
+      "householdSize": 3,
+      "state": "CA",
+      "county": "Los Angeles",
+      "grossMonthlyIncome": 3200,
+      "childrenUnder18": 2
+    },
+    "benefits": {
+      "evaluated": 169,
+      "likelyEligibleCount": 34
+    },
+    "packet": {
+      "formCount": 5,
+      "formsPassedGold": 5
+    },
+    "validation": {
+      "pdfsChecked": 5,
+      "pdfsValid": 5
+    },
+    "handoff": {
+      "submissionStatus": "submitted",
+      "provider": "mock-provider",
+      "localOnly": true
+    }
+  },
+  "requiredBenefitIds": [
+    "calfresh",
+    "medi_cal_children",
+    "eitc_federal",
+    "ctc_federal"
+  ],
+  "packetForms": [
+    "FL-100",
+    "FL-105",
+    "FL-110",
+    "FL-150",
+    "FW-001"
+  ],
+  "evidence": {
+    "sourceEvidencePath": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z/evidence.json",
+    "passportSnapshotPath": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z/passport-snapshot.json",
+    "eligibilityReportPath": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z/eligibility-report.json",
+    "validationLogPath": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z/validation-log.json",
+    "handoffLogPath": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z/handoff-log.json"
+  },
+  "files": [
+    {
+      "label": "source evidence",
+      "path": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z/evidence.json",
+      "relativePath": "evidence.json",
+      "bytes": 4391,
+      "sha256": "5b96d115ae73ee2b6df25b4cd58fe8055413bb6cc2e6de09d2e447c3d3a804f3"
+    },
+    {
+      "label": "passport snapshot",
+      "path": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z/passport-snapshot.json",
+      "relativePath": "passport-snapshot.json",
+      "bytes": 1759,
+      "sha256": "0446f20fd0a1306f2437caf01b90634550a7673420547e207a65cf5a3c1be0f4"
+    },
+    {
+      "label": "eligibility report",
+      "path": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z/eligibility-report.json",
+      "relativePath": "eligibility-report.json",
+      "bytes": 42885,
+      "sha256": "6ec08c173dc472b3a77deb5c66d5ae753d0ca36c40a9dc52a9b1039bbca7aa64"
+    },
+    {
+      "label": "validation log",
+      "path": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z/validation-log.json",
+      "relativePath": "validation-log.json",
+      "bytes": 4076,
+      "sha256": "7f28d6650a3c9bf56c4f73bcfa7745d60128fa17756b0700008c88a7ebebfd46"
+    },
+    {
+      "label": "handoff log",
+      "path": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z/handoff-log.json",
+      "relativePath": "handoff-log.json",
+      "bytes": 1656,
+      "sha256": "11948ca92a0a9d62034242e5094951f086f7bf7b1d65da839ec59655f9c554a8"
+    },
+    {
+      "label": "FL-100 PDF",
+      "path": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z/FL-100.pdf",
+      "relativePath": "FL-100.pdf",
+      "bytes": 316126,
+      "sha256": "900b30c7d5bfb61fba7f75dd9e664866ec51828cef98a6547c7e51d38ca658bd"
+    },
+    {
+      "label": "FL-105 PDF",
+      "path": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z/FL-105.pdf",
+      "relativePath": "FL-105.pdf",
+      "bytes": 287659,
+      "sha256": "49bfc554f9d62e99571d06faad1dbcf96e23fe4fcd16e63629e8815d9e68aba8"
+    },
+    {
+      "label": "FL-110 PDF",
+      "path": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z/FL-110.pdf",
+      "relativePath": "FL-110.pdf",
+      "bytes": 79952,
+      "sha256": "5dc412382d0c2bc4b2157bde4ad95c8594949a71495e6a55320d6204c93041e0"
+    },
+    {
+      "label": "FL-150 PDF",
+      "path": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z/FL-150.pdf",
+      "relativePath": "FL-150.pdf",
+      "bytes": 393999,
+      "sha256": "9b99d7fde3b66915bcc31e2ad84f29aad0fa5ea8e26597cc0e5c4cd5ba09d12f"
+    },
+    {
+      "label": "FW-001 PDF",
+      "path": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z/FW-001.pdf",
+      "relativePath": "FW-001.pdf",
+      "bytes": 268511,
+      "sha256": "c20d85151e7f9ed9b242534e919af537bb95e33cb4cd431b48188a2d9f607c7c"
+    }
+  ],
+  "checks": [
+    {
+      "category": "steel thread",
+      "name": "runner",
+      "status": "pass",
+      "detail": "Generated source evidence for maria-garcia-v1.",
+      "metadata": {
+        "evidence": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z/evidence.json"
+      }
+    },
+    {
+      "category": "local-first",
+      "name": "no-network guard",
+      "status": "pass",
+      "detail": "Network guard enabled=true; touches blocked=0."
+    },
+    {
+      "category": "PDFs",
+      "name": "generated packet PDFs",
+      "status": "pass",
+      "detail": "5/5 PDFs generated: FL-100, FL-105, FL-110, FL-150, FW-001."
+    },
+    {
+      "category": "passport",
+      "name": "JSON passport snapshot",
+      "status": "pass",
+      "detail": "Wrote local passport snapshot with 40 updated fields.",
+      "metadata": {
+        "path": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z/passport-snapshot.json"
+      }
+    },
+    {
+      "category": "eligibility",
+      "name": "eligibility report",
+      "status": "pass",
+      "detail": "169 rules evaluated; 34 likely; required benefits 4/4.",
+      "metadata": {
+        "path": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z/eligibility-report.json"
+      }
+    },
+    {
+      "category": "validation",
+      "name": "validation log",
+      "status": "pass",
+      "detail": "5/5 PDFs passed nonblank validation.",
+      "metadata": {
+        "path": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z/validation-log.json"
+      }
+    },
+    {
+      "category": "forms",
+      "name": "explicit expected form outputs",
+      "status": "pass",
+      "detail": "5/5 forms matched Maria gold output exactly.",
+      "metadata": {
+        "forms": [
+          {
+            "code": "FL-100",
+            "fieldsExpected": 148,
+            "fieldsMatched": 148,
+            "goldAccuracy": 1,
+            "fillRate": 0.15822784810126583
+          },
+          {
+            "code": "FL-105",
+            "fieldsExpected": 141,
+            "fieldsMatched": 141,
+            "goldAccuracy": 1,
+            "fillRate": 0.033783783783783786
+          },
+          {
+            "code": "FL-110",
+            "fieldsExpected": 9,
+            "fieldsMatched": 9,
+            "goldAccuracy": 1,
+            "fillRate": 0.3333333333333333
+          },
+          {
+            "code": "FL-150",
+            "fieldsExpected": 262,
+            "fieldsMatched": 262,
+            "goldAccuracy": 1,
+            "fillRate": 0.12030075187969924
+          },
+          {
+            "code": "FW-001",
+            "fieldsExpected": 129,
+            "fieldsMatched": 129,
+            "goldAccuracy": 1,
+            "fillRate": 0.03007518796992481
+          }
+        ]
+      }
+    },
+    {
+      "category": "handoff",
+      "name": "local mock filing handoff",
+      "status": "pass",
+      "detail": "Handoff status=submitted provider=mock-provider localOnly=true.",
+      "metadata": {
+        "path": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z/handoff-log.json"
+      }
+    }
+  ]
+}

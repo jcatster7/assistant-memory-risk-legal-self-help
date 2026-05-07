@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Assistant Memory Risk In Legal Self-Help Artifact Repository"
+message: "If you use this artifact repository, please cite the paper and this repository."
+type: software
+authors:
+  - family-names: Monk
+    given-names: Justin
+repository-code: "https://github.com/jcatster7/assistant-memory-risk-legal-self-help"
+license: "MIT"
+version: "1.0.0"
+date-released: 2026-05-06
+preferred-citation:
+  type: article
+  title: "Assistant Memory Risk In Legal Self-Help"
+  authors:
+    - family-names: Monk
+      given-names: Justin
+  year: 2026

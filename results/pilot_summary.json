@@ -1,0 +1,57 @@
+{
+  "paper_id": "134-assistant-memory-risk",
+  "title": "Assistant Memory Risk In Legal Self-Help",
+  "metrics": {
+    "generated_at": "2026-05-05T17:28:45.992Z",
+    "source_command": "./scripts/maria-demo-evidence-bundle",
+    "source_bundle_dir": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z",
+    "source_bundle_manifest_sha256": "45968707cc70fdcef6da6776076042a950fe5fd336354e1af04e08a67b4d733d",
+    "checks_passed": 8,
+    "checks_failed": 0,
+    "local_only": true,
+    "network_touches_blocked": 0,
+    "pdfs_generated": 5,
+    "pdfs_valid": 5,
+    "forms_passed_gold": 5,
+    "total_expected_fields": 689,
+    "total_matched_fields": 689,
+    "field_gold_accuracy": 1,
+    "passport_fields_updated": 40,
+    "rules_evaluated": 169,
+    "likely_eligible": 34,
+    "hashed_files": 10,
+    "memory_conditions": 3,
+    "scenarios": 6,
+    "scenario_rows": 18,
+    "no_memory_repeated_questions": 156,
+    "raw_memory_repeated_questions": 28,
+    "provenance_scoped_repeated_questions": 49,
+    "raw_memory_stale_errors": 21,
+    "raw_memory_pii_events": 17,
+    "provenance_scoped_stale_errors": 0,
+    "provenance_scoped_pii_events": 0,
+    "raw_memory_task_success_rate": 0,
+    "provenance_scoped_task_success_rate": 1
+  },
+  "source_bundle_dir": "public/maria-demo-evidence-bundle/2026-05-04T09-42-29-547Z",
+  "policy_results": {
+    "no_memory": {
+      "repeated_questions": 156,
+      "stale_fact_errors": 0,
+      "pii_exposure_events": 0,
+      "task_success_rate": 1
+    },
+    "provenance_scoped_memory": {
+      "repeated_questions": 49,
+      "stale_fact_errors": 0,
+      "pii_exposure_events": 0,
+      "task_success_rate": 1
+    },
+    "raw_memory": {
+      "repeated_questions": 28,
+      "stale_fact_errors": 21,
+      "pii_exposure_events": 17,
+      "task_success_rate": 0
+    }
+  }
+}

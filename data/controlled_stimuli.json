@@ -1,0 +1,20 @@
+[
+  {"policy":"no_memory","scenario":"repeat_intake","repeated_questions":40,"stale_fact_errors":0,"pii_exposure_events":0,"task_correct":true},
+  {"policy":"raw_memory","scenario":"repeat_intake","repeated_questions":5,"stale_fact_errors":3,"pii_exposure_events":2,"task_correct":false},
+  {"policy":"provenance_scoped_memory","scenario":"repeat_intake","repeated_questions":9,"stale_fact_errors":0,"pii_exposure_events":0,"task_correct":true},
+  {"policy":"no_memory","scenario":"contradiction_update","repeated_questions":18,"stale_fact_errors":0,"pii_exposure_events":0,"task_correct":true},
+  {"policy":"raw_memory","scenario":"contradiction_update","repeated_questions":4,"stale_fact_errors":4,"pii_exposure_events":3,"task_correct":false},
+  {"policy":"provenance_scoped_memory","scenario":"contradiction_update","repeated_questions":7,"stale_fact_errors":0,"pii_exposure_events":0,"task_correct":true},
+  {"policy":"no_memory","scenario":"address_change_before_filing","repeated_questions":24,"stale_fact_errors":0,"pii_exposure_events":0,"task_correct":true},
+  {"policy":"raw_memory","scenario":"address_change_before_filing","repeated_questions":3,"stale_fact_errors":5,"pii_exposure_events":2,"task_correct":false},
+  {"policy":"provenance_scoped_memory","scenario":"address_change_before_filing","repeated_questions":8,"stale_fact_errors":0,"pii_exposure_events":0,"task_correct":true},
+  {"policy":"no_memory","scenario":"income_update_before_fee_waiver","repeated_questions":26,"stale_fact_errors":0,"pii_exposure_events":0,"task_correct":true},
+  {"policy":"raw_memory","scenario":"income_update_before_fee_waiver","repeated_questions":5,"stale_fact_errors":4,"pii_exposure_events":2,"task_correct":false},
+  {"policy":"provenance_scoped_memory","scenario":"income_update_before_fee_waiver","repeated_questions":9,"stale_fact_errors":0,"pii_exposure_events":0,"task_correct":true},
+  {"policy":"no_memory","scenario":"language_preference_shift","repeated_questions":22,"stale_fact_errors":0,"pii_exposure_events":0,"task_correct":true},
+  {"policy":"raw_memory","scenario":"language_preference_shift","repeated_questions":6,"stale_fact_errors":2,"pii_exposure_events":3,"task_correct":false},
+  {"policy":"provenance_scoped_memory","scenario":"language_preference_shift","repeated_questions":8,"stale_fact_errors":0,"pii_exposure_events":0,"task_correct":true},
+  {"policy":"no_memory","scenario":"cross_matter_fact_leak","repeated_questions":26,"stale_fact_errors":0,"pii_exposure_events":0,"task_correct":true},
+  {"policy":"raw_memory","scenario":"cross_matter_fact_leak","repeated_questions":5,"stale_fact_errors":3,"pii_exposure_events":5,"task_correct":false},
+  {"policy":"provenance_scoped_memory","scenario":"cross_matter_fact_leak","repeated_questions":8,"stale_fact_errors":0,"pii_exposure_events":0,"task_correct":true}
+]
